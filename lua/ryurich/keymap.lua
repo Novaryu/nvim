@@ -240,19 +240,19 @@ wk.register({
 ["<leader>lt"] = { function() safeRequire("flash").toggle() end, "toggle flash search"},
 
 -- Nvim-DAP Mappings
-["<F4>"] = { function() safeRequire('dapui').toggle() end, "Toggle DAP Interface"},
-["<F7>"] = { function() safeRequire('dap').terminate() end, "Terminate DAP"},
-["<F8>"] = { function() safeRequire('dap').pause() end, "Pause DAP"},
-["<F9>"] = { function() safeRequire('dap').continue() end, "Continue DAP"},
-["<F10>"] = { function() safeRequire('dap').step_over() end, "Step over"},
-["<F11>"] = { function() safeRequire('dap').step_into() end, "Step into"},
-["<F12>"] = { function() safeRequire('dap').step_out() end, "Step out"},
-["<Leader>bb"] = { function() safeRequire('dap').toggle_breakpoint() end, "Toggle Breakpoint"},
-["<Leader>dr"] = { function() safeRequire('dap').repl.open() end, "Open repl"},
-["<Leader>dl"] = { function() safeRequire('dap').run_last() end, "Run last"},
+-- ["<F4>"] = { function() safeRequire('dapui').toggle() end, "Toggle DAP Interface"},
+-- ["<F7>"] = { function() safeRequire('dap').terminate() end, "Terminate DAP"},
+-- ["<F8>"] = { function() safeRequire('dap').pause() end, "Pause DAP"},
+-- ["<F9>"] = { function() safeRequire('dap').continue() end, "Continue DAP"},
+-- ["<F10>"] = { function() safeRequire('dap').step_over() end, "Step over"},
+-- ["<F11>"] = { function() safeRequire('dap').step_into() end, "Step into"},
+-- ["<F12>"] = { function() safeRequire('dap').step_out() end, "Step out"},
+-- ["<Leader>bb"] = { function() safeRequire('dap').toggle_breakpoint() end, "Toggle Breakpoint"},
+-- ["<Leader>dr"] = { function() safeRequire('dap').repl.open() end, "Open repl"},
+-- ["<Leader>dl"] = { function() safeRequire('dap').run_last() end, "Run last"},
 
 -- Cpp Mappings
-["<leader>cs"] = { function() vim.cmd('Ouroboros') end, "switch between header and source"},
+["<leader>cs"] = { function() vim.cmd('ClangdSwitchSourceHeader') end, "switch between header and source"},
 
 ["<leader>es"] = { function() require("luasnip.loaders").edit_snippet_files() end, "edit snippets"},
 

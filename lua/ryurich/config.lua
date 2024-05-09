@@ -36,9 +36,9 @@ opt.cursorline = true
 opt.showmode = false
 opt.completeopt = 'menuone,preview'
 
-opt.laststatus=3
 -- Hide command bar and tabline
-opt.cmdheight=0
+opt.laststatus=3
+-- opt.cmdheight=0
 opt.showtabline=0
 
 opt.encoding = 'UTF-8'

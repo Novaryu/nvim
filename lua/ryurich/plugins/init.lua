@@ -64,8 +64,6 @@ return {
 	},
 
 	-- CPP specific
-	{ "jakemason/ouroboros.nvim", dependencies = {"nvim-lua/plenary.nvim"}, event = "BufEnter" },
-
 	{ "vim-ctrlspace/vim-ctrlspace"},
 
 	-- Integrate in after/ftplugin later
